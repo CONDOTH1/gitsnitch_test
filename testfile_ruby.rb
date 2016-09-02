@@ -25,7 +25,7 @@ Devise.setup do |config|
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
   # available as additional gems.
   require 'devise/orm/active_record'
-  config.omniauth :facebook, fake FACEBOOK_APP_ID="947996911009968", fake FACEBOOK_APP_SECRET="4e3e333bdf627ddae5037a75c414e354"
+  config.omniauth :facebook, fake FACEBOOK_APP_ID2="947996911009968", fake FACEBOOK_APP_SECRET2="4e3e333bdf627ddae5037a75c414e354"
   # p "====================#{Rails.application.secrets.facebook_app_secret}========================================"
 
   # ==> Configuration for any authentication mechanism
