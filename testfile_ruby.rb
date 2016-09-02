@@ -27,7 +27,7 @@ Devise.setup do |config|
   require 'devise/orm/active_record'
   config.omniauth :facebook
 
-  fake FACEBOOK_APP_SECRET2="4e3e333bdf627ddae5037a75c414e354"
+  fake FACEBOOK_APP_SECRET2="4e3e333bdf627ddae5037a75c414e354"=
   FACEBOOK_APP_ID2="947996911009968"
 
   # p "====================#{Rails.application.secrets.facebook_app_secret}========================================"
